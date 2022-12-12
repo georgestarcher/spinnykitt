@@ -14,7 +14,7 @@ This Jupyter Notebook is used to build the Machine Learning model from the chat 
 
 #### Machine Learning Model:
 
-We do not want to rely on a single chat message to declare a Spinny Kitty event. The pattern is several viewers will post a message mostly comprising of the custom emoji within a short time window as GenerikB steps away.
+We do not want to rely on a single chat message to declare a Spinny Kitty event. The pattern is several viewers will post a message mostly comprising of the custom emoji within a short time window as the streamer steps away.
 
 We want to be able to apply the model to a chat log stream so we can identify the chat line that tips the measurement into a Spinny Kitty event.
 
