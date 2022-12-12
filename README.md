@@ -86,6 +86,7 @@ https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=CLIENTIDHERE
 ```
 
 This is an example of the URL that your browser gets redirected to. Which is an empty page since you don't have a listening web server.
+
 ```
 http://localhost/#access_token=ptubexg32qfwnqzvdaktvmke7khb61&scope=chat%3Aread&state=c3ab8aa609ea11e793ae92361f002671&token_type=bearer
 ```
