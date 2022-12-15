@@ -14,7 +14,7 @@ This Jupyter Notebook is used to build the Machine Learning model from the chat 
 
 #### Machine Learning Model:
 
-We do not want to rely on a single chat message to declare a Spinny Kitty event. The pattern is several viewers will post a message mostly comprising of the custom emoji within a short time window as GenerikB steps away.
+We do not want to rely on a single chat message to declare a Spinny Kitty event. The pattern is several viewers will post a message mostly comprising of the custom emoji within a short time window as the streamer steps away.
 
 We want to be able to apply the model to a chat log stream so we can identify the chat line that tips the measurement into a Spinny Kitty event.
 
@@ -86,6 +86,7 @@ https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=CLIENTIDHERE
 ```
 
 This is an example of the URL that your browser gets redirected to. Which is an empty page since you don't have a listening web server.
+
 ```
 http://localhost/#access_token=ptubexg32qfwnqzvdaktvmke7khb61&scope=chat%3Aread&state=c3ab8aa609ea11e793ae92361f002671&token_type=bearer
 ```
